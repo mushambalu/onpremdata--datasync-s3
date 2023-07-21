@@ -1,0 +1,27 @@
+Use AWS DataSync
+To move large amounts of data from one Amazon S3 bucket to another bucket, perform the following steps:
+
+1.    Open the AWS DataSync console.
+
+2.    Create a task.
+
+3.    Create a new location for Amazon S3.
+
+4.    Select your S3 bucket as the source location.
+
+5.    Update the source location configuration settings. Make sure to specify the AWS Identity Access Management (IAM) role that will be used to access your source S3 bucket.
+
+6.    Select your S3 bucket as the destination location.
+
+7.    Update the destination location configuration settings. Make sure to specify the AWS Identity Access Management (IAM) role that will be used to access your S3 destination bucket.
+
+8.    Configure settings for your task.
+
+9.    Review the configuration details.
+
+10.    Choose Create task.
+
+11.    Start your task.
+
+Important: When you use AWS DataSync, you will incur additional costs. To preview any DataSync costs, review the DataSync pricing structure and DataSync limits.
+
